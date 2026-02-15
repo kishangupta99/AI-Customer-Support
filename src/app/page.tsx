@@ -1,6 +1,5 @@
 import HomeClient from "@/components/HomeClient";
 import { getSession } from "@/lib/getSession";
-import { redirect } from "next/navigation";
 
 export default async function Home() {
 
