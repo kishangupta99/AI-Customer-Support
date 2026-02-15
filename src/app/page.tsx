@@ -7,9 +7,9 @@ export default async function Home() {
   const session = await getSession()
   console.log(session);
 
-  // if (!session?.user?.email) {
-  //   return null
-  // }
+  if (!session?.user?.email) {
+    return null
+  }
 
   return (
     <>
